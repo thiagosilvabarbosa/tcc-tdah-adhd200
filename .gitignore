@@ -1,0 +1,9 @@
+# Dados do ADHD-200 não são redistribuídos neste repositório
+dados/
+treino/
+Dados_Oficiais/
+resultados_finais/cache/
+*.1D
+*.mat
+.ipynb_checkpoints/
+__pycache__/

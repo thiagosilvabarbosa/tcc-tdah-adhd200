@@ -1,0 +1,259 @@
+{
+  "n": 543,
+  "sites": [
+    "KKI",
+    "NYU",
+    "NeuroIMAGE",
+    "OHSU",
+    "Peking"
+  ],
+  "n_por_site": {
+    "KKI": 78,
+    "NYU": 177,
+    "NeuroIMAGE": 39,
+    "OHSU": 66,
+    "Peking": 183
+  },
+  "inferencia": [
+    {
+      "modalidade": "pheno",
+      "rotulo": "Fenótipos",
+      "AUC_media_sites": 0.7021378461237086,
+      "IC95_inf": 0.6489568620978121,
+      "IC95_sup": 0.7559659475488755,
+      "AUC_dp_sites": 0.10780855260456704,
+      "AUC_pooled": 0.7100172447361833,
+      "BAL_ACC": 0.6525383843254016,
+      "delta_vs_fenotipos": 0.0,
+      "delta_IC_inf": 0.0,
+      "delta_IC_sup": 0.0,
+      "n_perm": 1000,
+      "nulo_media": 0.501074105232823,
+      "nulo_dp": 0.03748915183628702,
+      "p_bruto": 0.000999000999000999,
+      "p_bonferroni": 0.003996003996003996,
+      "familia": "confirmatória"
+    },
+    {
+      "modalidade": "forca",
+      "rotulo": "fMRI (força do ROI)",
+      "AUC_media_sites": 0.5025025284729125,
+      "IC95_inf": 0.44242174133278306,
+      "IC95_sup": 0.5648073242205099,
+      "AUC_dp_sites": 0.03577230093508113,
+      "AUC_pooled": 0.5104441910271744,
+      "BAL_ACC": 0.49312960442315595,
+      "delta_vs_fenotipos": -0.199635317650796,
+      "delta_IC_inf": -0.2758542421154105,
+      "delta_IC_sup": -0.11426397212792243,
+      "n_perm": 200,
+      "nulo_media": 0.5026640843748273,
+      "nulo_dp": 0.03960836351434653,
+      "p_bruto": 0.5174129353233831,
+      "p_bonferroni": 1.0,
+      "familia": "confirmatória"
+    },
+    {
+      "modalidade": "fmri",
+      "rotulo": "fMRI (954 ROIs)",
+      "AUC_media_sites": 0.5466279955343503,
+      "IC95_inf": 0.48621287006748115,
+      "IC95_sup": 0.6073573159899812,
+      "AUC_dp_sites": 0.04985949270470645,
+      "AUC_pooled": 0.5494673601646595,
+      "BAL_ACC": 0.5238479891561225,
+      "delta_vs_fenotipos": -0.1555098505893583,
+      "delta_IC_inf": -0.23462901824642263,
+      "delta_IC_sup": -0.07858249125161305,
+      "n_perm": 0,
+      "nulo_media": NaN,
+      "nulo_dp": NaN,
+      "p_bruto": NaN,
+      "p_bonferroni": NaN,
+      "familia": "confirmatória"
+    },
+    {
+      "modalidade": "fusion",
+      "rotulo": "Fenótipos + fMRI (954 ROIs)",
+      "AUC_media_sites": 0.5802439695552987,
+      "IC95_inf": 0.5211661546734165,
+      "IC95_sup": 0.6374883739807761,
+      "AUC_dp_sites": 0.046720070619958226,
+      "AUC_pooled": 0.5658359524935332,
+      "BAL_ACC": 0.5459754775771869,
+      "delta_vs_fenotipos": -0.12189387656840989,
+      "delta_IC_inf": -0.1791629089077135,
+      "delta_IC_sup": -0.06591527395986452,
+      "n_perm": 0,
+      "nulo_media": NaN,
+      "nulo_dp": NaN,
+      "p_bruto": NaN,
+      "p_bonferroni": NaN,
+      "familia": "confirmatória"
+    },
+    {
+      "modalidade": "aal",
+      "rotulo": "fMRI (AAL)",
+      "AUC_media_sites": 0.5801727541081246,
+      "IC95_inf": 0.5210305170217424,
+      "IC95_sup": 0.6385651235125029,
+      "AUC_dp_sites": 0.05581859167488917,
+      "AUC_pooled": 0.5704530915361722,
+      "BAL_ACC": 0.5338549239773379,
+      "delta_vs_fenotipos": -0.12196509201558392,
+      "delta_IC_inf": -0.1990202273531232,
+      "delta_IC_sup": -0.0476584124700793,
+      "n_perm": 200,
+      "nulo_media": 0.4958061007694637,
+      "nulo_dp": 0.03946012756133915,
+      "p_bruto": 0.024875621890547265,
+      "p_bonferroni": NaN,
+      "familia": "exploratória"
+    },
+    {
+      "modalidade": "fusion_aal",
+      "rotulo": "Fenótipos + fMRI (AAL)",
+      "AUC_media_sites": 0.6131859048469577,
+      "IC95_inf": 0.5563011894617557,
+      "IC95_sup": 0.6702901381247242,
+      "AUC_dp_sites": 0.05704061821047033,
+      "AUC_pooled": 0.5888799265708008,
+      "BAL_ACC": 0.5892026624394061,
+      "delta_vs_fenotipos": -0.08895194127675088,
+      "delta_IC_inf": -0.15612496773026985,
+      "delta_IC_sup": -0.02189772140469499,
+      "n_perm": 200,
+      "nulo_media": 0.4962758679956829,
+      "nulo_dp": 0.03901027578721402,
+      "p_bruto": 0.009950248756218905,
+      "p_bonferroni": NaN,
+      "familia": "exploratória"
+    }
+  ],
+  "explicabilidade": [
+    {
+      "index": "Gender",
+      "coef_medio": 0.6447051782937356,
+      "coef_dp": 0.09362304604670815,
+      "odds_ratio_por_1DP": 1.9054251857497375,
+      "folds_mesmo_sinal": 5,
+      "mean_abs_shap": 0.5855517646650337,
+      "shap_medio_TDAH": 0.15677284461537583,
+      "shap_medio_controle": -0.18227981556948614,
+      "d_ponderado": 0.6086725427315404,
+      "d_min": 0.030727896751536667,
+      "d_max": 0.9685078865155516
+    },
+    {
+      "index": "Age",
+      "coef_medio": -0.09138566178105077,
+      "coef_dp": 0.10069472823002774,
+      "odds_ratio_por_1DP": 0.9126656627528705,
+      "folds_mesmo_sinal": 4,
+      "mean_abs_shap": 0.08899115385627863,
+      "shap_medio_TDAH": -0.01585351969948602,
+      "shap_medio_controle": 0.012074940710468753,
+      "d_ponderado": 0.011285571855467911,
+      "d_min": -0.31385417805485,
+      "d_max": 0.41857402117571807
+    },
+    {
+      "index": "Full4 IQ",
+      "coef_medio": -0.6177578129169631,
+      "coef_dp": 0.12058193620929997,
+      "odds_ratio_por_1DP": 0.5391519629069766,
+      "folds_mesmo_sinal": 5,
+      "mean_abs_shap": 0.4506426486662576,
+      "shap_medio_TDAH": 0.19850569347784025,
+      "shap_medio_controle": -0.09097767196896053,
+      "d_ponderado": -0.6094293097403661,
+      "d_min": -0.9525744078736263,
+      "d_max": -0.24618114549987594
+    }
+  ],
+  "sensibilidade": [
+    {
+      "index": "todas",
+      "AUC_media_sites": 0.7021378461237086,
+      "AUC_dp_sites": 0.10780855260456704,
+      "AUC_pooled": 0.7100172447361833,
+      "BAL_ACC_media": 0.6525383843254016,
+      "ACC_baseline": 0.5782688766114181
+    },
+    {
+      "index": "sem_QI",
+      "AUC_media_sites": 0.6222831025446273,
+      "AUC_dp_sites": 0.0817976383590414,
+      "AUC_pooled": 0.6021750618863516,
+      "BAL_ACC_media": 0.6287158703108557,
+      "ACC_baseline": 0.5782688766114181
+    },
+    {
+      "index": "so_QI",
+      "AUC_media_sites": 0.6204883630660367,
+      "AUC_dp_sites": 0.1033301690095923,
+      "AUC_pooled": 0.6461839067671682,
+      "BAL_ACC_media": 0.577116736681831,
+      "ACC_baseline": 0.5782688766114181
+    },
+    {
+      "index": "sem_idade",
+      "AUC_media_sites": 0.7022809542762545,
+      "AUC_dp_sites": 0.10399845522153654,
+      "AUC_pooled": 0.7075696047617723,
+      "BAL_ACC_media": 0.6694262698136928,
+      "ACC_baseline": 0.5782688766114181
+    },
+    {
+      "index": "sem_sexo",
+      "AUC_media_sites": 0.6020846128108277,
+      "AUC_dp_sites": 0.11068336321322006,
+      "AUC_pooled": 0.6263594136789697,
+      "BAL_ACC_media": 0.5609298265861911,
+      "ACC_baseline": 0.5782688766114181
+    }
+  ],
+  "poder": [
+    {
+      "modalidade": "pheno",
+      "AUC_minima_detectavel": 0.5942899388161323,
+      "d_equivalente": 0.3374234099861957,
+      "AUC_observada": 0.7021378461237086,
+      "d_observado": 0.7503239496172979
+    },
+    {
+      "modalidade": "forca",
+      "AUC_minima_detectavel": 0.6011492845197614,
+      "d_equivalente": 0.362495477521613,
+      "AUC_observada": 0.5025025284729125,
+      "d_observado": 0.008871290638017138
+    },
+    {
+      "modalidade": "aal",
+      "AUC_minima_detectavel": 0.593922715943819,
+      "d_equivalente": 0.3360842043804273,
+      "AUC_observada": 0.5801727541081246,
+      "d_observado": 0.2861455306408926
+    },
+    {
+      "modalidade": "fusion_aal",
+      "AUC_minima_detectavel": 0.5932739380427138,
+      "d_equivalente": 0.33371894625047827,
+      "AUC_observada": 0.6131859048469577,
+      "d_observado": 0.4067735497222554
+    }
+  ],
+  "leitura": [
+    "Fenótipos: AUC 0.702 (IC95% 0.649-0.756); p=0.0010; p corrigido (x4)=0.0040.",
+    "fMRI (força do ROI): AUC 0.503 (IC inclui 0,5); contra fenótipos: pior (delta -0.200, IC95% -0.276 a -0.114).",
+    "fMRI (954 ROIs): AUC 0.547 (IC inclui 0,5); contra fenótipos: pior (delta -0.156, IC95% -0.235 a -0.079).",
+    "Fenótipos + fMRI (954 ROIs): AUC 0.580 (IC acima de 0,5); contra fenótipos: pior (delta -0.122, IC95% -0.179 a -0.066).",
+    "fMRI (AAL): AUC 0.580 (IC acima de 0,5); contra fenótipos: pior (delta -0.122, IC95% -0.199 a -0.048).",
+    "Fenótipos + fMRI (AAL): AUC 0.613 (IC acima de 0,5); contra fenótipos: pior (delta -0.089, IC95% -0.156 a -0.022)."
+  ],
+  "versoes": {
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "shap": "0.54.1"
+  }
+}

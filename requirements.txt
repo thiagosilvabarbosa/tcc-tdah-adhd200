@@ -1,0 +1,8 @@
+numpy==2.4.6
+pandas==2.2.3
+scipy
+scikit-learn
+matplotlib
+joblib
+tqdm
+shap==0.54.1
