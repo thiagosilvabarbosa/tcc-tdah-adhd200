@@ -1,6 +1,6 @@
 # A Ressonância Magnética Ajuda a Identificar o TDAH?
 
-Código e resultados do Trabalho de Conclusão de Curso de **Thiago da Silva Barbosa** (Análise e Desenvolvimento de Sistemas, IFPE), orientado por **Luciano Cabral**.
+Código e resultados do Trabalho de Conclusão de Curso de **Thiago da Silva Barbosa**, orientado pelo Professor **Luciano Cabral**.
 
 O trabalho avalia, com validação *leave-one-site-out* e sem vazamento de dados, se a conectividade funcional de repouso (rs-fMRI) do dataset ADHD-200 acrescenta informação aos dados fenotípicos (sexo, idade e QI) na classificação de TDAH.
 
